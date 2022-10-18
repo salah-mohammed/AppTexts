@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		8B2E532B28FF3C9700FE7911 /* AppTexts.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E532A28FF3C9700FE7911 /* AppTexts.docc */; };
 		8B2E532C28FF3C9700FE7911 /* AppTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2E532928FF3C9700FE7911 /* AppTexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B534F1328FF3DAE00EE0D2D /* AppTextsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B534F1228FF3DAE00EE0D2D /* AppTextsEx.swift */; };
+		8B534F1728FF3DE000EE0D2D /* AppTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B534F1528FF3DE000EE0D2D /* AppTexts.swift */; };
+		8B534F1928FF3E8400EE0D2D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B534F1828FF3E8400EE0D2D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B2E532628FF3C9700FE7911 /* AppTexts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppTexts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2E532928FF3C9700FE7911 /* AppTexts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTexts.h; sourceTree = "<group>"; };
 		8B2E532A28FF3C9700FE7911 /* AppTexts.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AppTexts.docc; sourceTree = "<group>"; };
+		8B534F1228FF3DAE00EE0D2D /* AppTextsEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTextsEx.swift; sourceTree = "<group>"; };
+		8B534F1528FF3DE000EE0D2D /* AppTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTexts.swift; sourceTree = "<group>"; };
+		8B534F1828FF3E8400EE0D2D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				8B2E532928FF3C9700FE7911 /* AppTexts.h */,
+				8B534F1228FF3DAE00EE0D2D /* AppTextsEx.swift */,
+				8B534F1828FF3E8400EE0D2D /* Localizable.strings */,
+				8B534F1528FF3DE000EE0D2D /* AppTexts.swift */,
 				8B2E532A28FF3C9700FE7911 /* AppTexts.docc */,
 			);
 			path = AppTexts;
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B534F1928FF3E8400EE0D2D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B534F1728FF3DE000EE0D2D /* AppTexts.swift in Sources */,
 				8B2E532B28FF3C9700FE7911 /* AppTexts.docc in Sources */,
+				8B534F1328FF3DAE00EE0D2D /* AppTextsEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
