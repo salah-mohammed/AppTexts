@@ -17,25 +17,25 @@ class Validate: NSObject {
     }
     func newPassword(_ newPassword:String?)->String?{
         if newPassword?.isEmpty ?? true{
-            return Validate.fieldRequired(Localize.NewPassword);
+            return Validate.fieldRequired(AppTexts.NewPassword);
         }else
         if (newPassword?.count ?? 0) < 6 {
-            return Localize.PasswordMustHave6
+            return AppTexts.PasswordMustHave6
         }
         return nil
     }
     public class func confirmPaswword(_ password:String?,_ confirmPassword:String?)->String?{
         if password?.isEmpty ?? true{
-            return Validate.fieldRequired(Localize.ConfirmPassword);
+            return Validate.fieldRequired(AppTexts.ConfirmPassword);
         }else
         if confirmPassword != password {
-            return Localize.PasswordNotMatch
+            return AppTexts.PasswordNotMatch
         }
         return nil
     }
     public class func email(_ email:String?)->String?{
        if  RegularExpression.email.regex.matches(input:email ?? "")==false {
-           return Validate.fieldNotValid(Localize.Email)
+           return Validate.fieldNotValid(AppTexts.Email)
        }
         return nil
     }
