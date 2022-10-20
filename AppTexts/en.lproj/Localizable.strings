@@ -33,6 +33,10 @@
 "RateApp"="Rate App";
 "AboutApp"="About App";
 "PrivacyPolicy"="Privacy Policy";
+"Login"="Login";
+"Register"="Register";
+"Profile"="Profile";
+"EditProfile"="Edit Profile";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";

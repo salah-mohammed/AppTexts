@@ -100,6 +100,18 @@ public class AppTexts: NSObject {
     public class var PrivacyPolicy:String{
         return "PrivacyPolicy".internalLocalize_
     }
+    public class var Login:String{
+        return "Login".internalLocalize_
+    }
+    public class var Register:String{
+        return "Register".internalLocalize_
+    }
+    public class var Profile:String{
+        return "Profile".internalLocalize_
+    }
+    public class var EditProfile:String{
+        return "EditProfile".internalLocalize_
+    }
     // Fields
     public class var FirstName:String{
         return "FirstName".internalLocalize_

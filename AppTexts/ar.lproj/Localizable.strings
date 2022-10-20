@@ -33,6 +33,10 @@
 "RateApp"="قيم التطبيق";
 "AboutApp"="عن التطبيق";
 "PrivacyPolicy"="سياسة الخصوصية";
+"Login"="تسجيل الدخول";
+"Register"="تسجيل";
+"Profile"="الملف الشخصي";
+"EditProfile"="تعديل الملف الشخصي";
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
