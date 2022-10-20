@@ -24,8 +24,11 @@
 "Attention"="Attention";
 "Error"="Error";
 "AnErrorOccurred"="An unexpected error occurred";
+"Send"="Send";
 // Alerts
 "AlertMessageLogoutConfirmation"="Do you want to log out";
+"Unauthorized" = "There is UnExpected Error , You Should relogin know .";
+
 //Titles
 "ContactUs"="Contact Us";
 "TermsAndConditions"="Terms and Conditions";
@@ -37,6 +40,12 @@
 "Register"="Register";
 "Profile"="Profile";
 "EditProfile"="Edit Profile";
+"Search"="Search";
+"Language"="Language";
+"From"="From";
+"To"="To";
+"Registration"="Registration";
+"Chat"="Chat";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";

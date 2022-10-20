@@ -77,9 +77,15 @@ public class AppTexts: NSObject {
     public class var AnErrorOccurred:String{
         return "AnErrorOccurred".internalLocalize_
     }
+    public class var Send:String{
+        return "Send".internalLocalize_
+    }
     // Alerts
     public class var LogoutConfirmation:String{
         return "AlertMessageLogoutConfirmation".internalLocalize_
+    }
+    public class var Unauthorized:String{
+        return "Unauthorized".internalLocalize_
     }
     // Titles
     public class var ContactUs:String{
@@ -111,6 +117,24 @@ public class AppTexts: NSObject {
     }
     public class var EditProfile:String{
         return "EditProfile".internalLocalize_
+    }
+    public class var Search:String{
+        return "Search".internalLocalize_
+    }
+    public class var Language:String{
+        return "Language".internalLocalize_
+    }
+    public class var From:String{
+        return "From".internalLocalize_
+    }
+    public class var To:String{
+        return "To".internalLocalize_
+    }
+    public class var Registration:String{
+        return "Registration".internalLocalize_
+    }
+    public class var Chat:String{
+        return "Chat".internalLocalize_
     }
     // Fields
     public class var FirstName:String{

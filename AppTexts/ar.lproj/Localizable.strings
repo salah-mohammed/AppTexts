@@ -24,8 +24,11 @@
 "Attention"="تنبيه";
 "Error"="خطأ";
 "AnErrorOccurred"="خطأ غير متوقع";
+"Send"="إرسال";
 //Alerts
 "AlertMessageLogoutConfirmation"="هل تريد تسجيل الخروج؟";
+"Unauthorized"                  = "حدث خطأ غير متوقع , يجب إعادة الدخول مرة إخري";
+
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
@@ -37,6 +40,12 @@
 "Register"="تسجيل";
 "Profile"="الملف الشخصي";
 "EditProfile"="تعديل الملف الشخصي";
+"Search"="بحث";
+"Language"="اللغة";
+"From"="من";
+"To"="إلى";
+"Registration"="تسجيل";
+"Chat"="المحادثات";
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
