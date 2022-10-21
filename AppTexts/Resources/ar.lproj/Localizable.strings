@@ -102,3 +102,8 @@
 "FieldRequired"="%@ مطلوب";
 "PasswordNotMatch"="كلمة المرور غير متطابقة";
 "PasswordMustHave6"="كلمة المرور يجب ان تكون اكثر من ستة حروف";
+
+//dark mode
+"UIUserInterfaceStyle.unspecified.bs_title"="نظام";
+"UIUserInterfaceStyle.light.bs_title"="فاتح";
+"UIUserInterfaceStyle.dark.bs_title"="غامق";

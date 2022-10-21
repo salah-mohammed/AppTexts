@@ -99,3 +99,8 @@
 "FieldRequired"="%@ required";
 "PasswordNotMatch"="Password does not match";
 "PasswordMustHave6"="Password must be more than six characters";
+
+//dark mode
+"UIUserInterfaceStyle.unspecified.bs_title"="system";
+"UIUserInterfaceStyle.light.bs_title"="light";
+"UIUserInterfaceStyle.dark.bs_title"="dark";

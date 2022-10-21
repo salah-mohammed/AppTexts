@@ -8,6 +8,24 @@
 
 import UIKit
 
+public extension UIUserInterfaceStyle {
+    var bs_title:String?{
+        switch self {
+        case .unspecified:
+            return "UIUserInterfaceStyle.unspecified.bs_title".internalLocalize_;
+        case .light:
+            return "UIUserInterfaceStyle.light.bs_title".internalLocalize_;
+        case .dark:
+            return "UIUserInterfaceStyle.dark.bs_title".internalLocalize_;
+        default:
+            break;
+        }
+        return nil
+    }
+    public static var bs_all:[UIUserInterfaceStyle]{
+        return [.unspecified,.light,.dark]
+    }
+}
 public class AppTexts: NSObject {
     // Constants
     
