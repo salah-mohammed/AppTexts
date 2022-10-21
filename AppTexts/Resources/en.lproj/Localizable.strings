@@ -53,6 +53,7 @@
 "AddGeneralSuccessfully" = "%@ Added Successfully";
 "EditGeneralSuccessfully" = "%@ Edited Successfully";
 "SavedGeneralSuccessfully" = "%@ Saved Successfully";
+"QuestionYesNo"="Are you sure you want to %@?";
 //Titles
 "ContactUs"="Contact Us";
 "TermsAndConditions"="Terms and Conditions";
@@ -91,6 +92,7 @@
 "ShareApp"="Share App";
 "ChangePassword"="Change Password";
 "ResendVerificationCode"="Resend Verification Code";
+"CompleteProfile" ="Complete Profile";
 
 // Fields
 "FirstName"="FirstName";
@@ -118,7 +120,8 @@
 "MessageBody"="Message Body";
 "VerificationCode"="Verification Code";
 "Country"= "Country";
-"ChatTextMessagePlaceholder"="...أكتب رسالتك";
+"ChatTextMessagePlaceholder"="Write your message ...";
+"General.Message" = "Message";
 
 //Other
 "Category"="Category";

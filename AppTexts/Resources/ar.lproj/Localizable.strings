@@ -53,7 +53,7 @@
 "AddGeneralSuccessfully" = "تم إضافة %@ بنجاح";
 "EditGeneralSuccessfully" = "تم تعديل %@ بنجاح";
 "SavedGeneralSuccessfully" = "تم حفظ %@ بنجاح";
-
+"QuestionYesNo"="هل تريد بالتأكيد %@؟";
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
@@ -92,6 +92,7 @@
 "ShareApp"="مشاركة التطبيق";
 "ChangePassword"="تغير كلمة المرور";
 "ResendVerificationCode"="إعادة ارسال رمز التفعيل";
+"CompleteProfile"="إكمال الملف الشخصي";
 
 // Fields
 "FirstName"="الاسم الاول";
@@ -119,7 +120,8 @@
 "MessageBody"="نص الرسالة";
 "VerificationCode"="رمز التفعيل";
 "Country"= "الدولة";
-"ChatTextMessagePlaceholder"="Write your message ...";
+"ChatTextMessagePlaceholder"="...أكتب رسالتك";
+"General.Message"="الرسالة";
 
 //Other
 "Category"="التصنيف";
