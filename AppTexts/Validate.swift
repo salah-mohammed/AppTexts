@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Validate: NSObject {
+public class Validate: NSObject {
     public class func fieldRequired(_ value:String)->String?{
       return  String.init(format: "FieldRequired".internalLocalize_, arguments:[value])
     }
