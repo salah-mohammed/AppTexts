@@ -50,6 +50,10 @@
 "LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
 "General.DeleteMessage"="هل تريد بالتأكيد حذف %@؟";
 "General.DeleteSuccessfullyMessage"="تم حذف هذا %@ بنجاح";
+"AddGeneralSuccessfully" = "تم إضافة %@ بنجاح";
+"EditGeneralSuccessfully" = "تم تعديل %@ بنجاح";
+"SavedGeneralSuccessfully" = "تم حفظ %@ بنجاح";
+
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
@@ -86,6 +90,7 @@
 "Verfiy"="تحقق";
 "AppLanguage"="لغة التطبيق";
 "ShareApp"="مشاركة التطبيق";
+"ChangePassword"="تغير كلمة المرور";
 
 // Fields
 "FirstName"="الاسم الاول";
