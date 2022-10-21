@@ -25,9 +25,22 @@
 "Error"="خطأ";
 "AnErrorOccurred"="خطأ غير متوقع";
 "Send"="إرسال";
+"Year"="سنة";
+"Clear"="تفريغ";
+"Sort" = "ترتيب";
+"SortBy" = "ترتيب حسب";
+"Home"="الرئيسية";
+"SeeAll"="عرض المزيد";
+"Favorite"="المفضلة";
 //Alerts
 "AlertMessageLogoutConfirmation"="هل تريد تسجيل الخروج؟";
 "Unauthorized"                  = "حدث خطأ غير متوقع , يجب إعادة الدخول مرة إخري";
+//"TitleChangeLanguage"           = "هل تريد فعلاً تغيير اللغة ؟";
+//"SubTitleChangeLanguage"        =  "سوف يتم إغلاق التطبيق";
+//"ItWillSupportLater"            = "جاري العمل عليها , سيتم دعمها لاحقا";
+//"LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
+//"DoYouWantToChangeLanguage"     = "هل تريد تغير اللغة";
+//"ChangeLanguageMessage"         = "عند الضغط علي نعم سوف يتم إغلاق التطبيق و يتوجب عليك فتحه مرة اخري";
 
 //Titles
 "ContactUs"="اتصل بنا";
@@ -46,6 +59,17 @@
 "To"="إلى";
 "Registration"="تسجيل";
 "Chat"="المحادثات";
+"AccountInformation"="معلومات الحساب";
+"Skip"="تخطي";
+"Join"="انضمام";
+"Delete"="حذف";
+"PaymentSuccessful"="تم الدفع بنجاح";
+"MyAccount"="حسابي";
+"Pending"="معلقة";
+"Confirmed"="مقبول";
+"Cancelled"="ملغي";
+"Unconfirmed"="غير مقبول";
+"Confirm"="تأكيد";
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
@@ -69,6 +93,9 @@
 "Location"="الموقع";
 "Requirements"="المتطلبات";
 "Version"="رقم النسخة";
+//Other
+"Category"="التصنيف";
+"ChooseCategory"="اختر تصنيف";
 
 // validation
 "NotValid"="يبدو ان حقل %@ غير صحيح";

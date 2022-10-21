@@ -25,9 +25,19 @@
 "Error"="Error";
 "AnErrorOccurred"="An unexpected error occurred";
 "Send"="Send";
+"Year"="Year";
+"Clear"="Clear";
+"Sort" = "Sort";
+"SortBy" = "Sort by";
+"Home"="Home";
+"SeeAll"="See All";
+"Favorite"="Favorite";
 // Alerts
 "AlertMessageLogoutConfirmation"="Do you want to log out";
 "Unauthorized" = "There is UnExpected Error , You Should relogin know .";
+//"TitleChangeLanguage" = "Do you want Change Language?";
+//"SubTitleChangeLanguage" = "The app will be turn off";
+//"ItWillSupportLater"     = "We are working on it ,It Will Support Later";
 
 //Titles
 "ContactUs"="Contact Us";
@@ -46,6 +56,17 @@
 "To"="To";
 "Registration"="Registration";
 "Chat"="Chat";
+"AccountInformation"="Account Information";
+"Skip"="Skip";
+"Join"="Join";
+"Delete"="Delete";
+"PaymentSuccessful"="Your payment was successful";
+"MyAccount"="My Account";
+"Pending"="Pending";
+"Confirmed"="Confirmed";
+"Cancelled"="Cancelled";
+"Unconfirmed"="Unconfirmed";
+"Confirm"="Confirm";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";
@@ -69,6 +90,9 @@
 "Location"="Location";
 "Requirements"="Requirements";
 "Version"="Version";
+//Other
+"Category"="Category";
+"ChooseCategory"="Choose Category";
 
 // validation
 "NotValid"="Sorry, The %@ not valid";
