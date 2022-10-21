@@ -32,16 +32,24 @@
 "Home"="الرئيسية";
 "SeeAll"="عرض المزيد";
 "Favorite"="المفضلة";
+"Signin" = "تسجيل الدخول";
+"Change" = "تغيير";
+"Edit"="تعديل";
+"KM"="%@ كم";
+"ShowMore" = "إقرا المزيد";
+"ShowLess" = "إقرا اقل";
+"Filter"="فلتر";
+"SearchResult" = "نتائج البحث";
+"Add" = "إضافة";
 //Alerts
 "AlertMessageLogoutConfirmation"="هل تريد تسجيل الخروج؟";
 "Unauthorized"                  = "حدث خطأ غير متوقع , يجب إعادة الدخول مرة إخري";
-//"TitleChangeLanguage"           = "هل تريد فعلاً تغيير اللغة ؟";
-//"SubTitleChangeLanguage"        =  "سوف يتم إغلاق التطبيق";
-//"ItWillSupportLater"            = "جاري العمل عليها , سيتم دعمها لاحقا";
-//"LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
-//"DoYouWantToChangeLanguage"     = "هل تريد تغير اللغة";
-//"ChangeLanguageMessage"         = "عند الضغط علي نعم سوف يتم إغلاق التطبيق و يتوجب عليك فتحه مرة اخري";
-
+"TitleChangeLanguage"           = "هل تريد فعلاً تغيير اللغة ؟";
+"SubTitleChangeLanguage"        =  "سوف يتم إغلاق التطبيق ويتوجب عليك فتحه مرة اخرى";
+"SupportLater" = "سيتم دعم هذه الخاصية لاحقا";
+"LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
+"General.DeleteMessage"="هل تريد بالتأكيد حذف %@؟";
+"General.DeleteSuccessfullyMessage"="تم حذف هذا %@ بنجاح";
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
@@ -57,7 +65,7 @@
 "Language"="اللغة";
 "From"="من";
 "To"="إلى";
-"Registration"="تسجيل";
+"Registration"="التسجيل";
 "Chat"="المحادثات";
 "AccountInformation"="معلومات الحساب";
 "Skip"="تخطي";
@@ -70,6 +78,15 @@
 "Cancelled"="ملغي";
 "Unconfirmed"="غير مقبول";
 "Confirm"="تأكيد";
+"Version"="رقم النسخة";
+"ForgotPassword"="نسيت كلمة المرور";
+"Male"="ذكر";
+"Female"="أنثى";
+"Other"="غير ذلك";
+"Verfiy"="تحقق";
+"AppLanguage"="لغة التطبيق";
+"ShareApp"="مشاركة التطبيق";
+
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
@@ -92,18 +109,32 @@
 "DateOfBirth"="تاريخ الميلاد";
 "Location"="الموقع";
 "Requirements"="المتطلبات";
-"Version"="رقم النسخة";
+"MessageTitle"="عنوان الرسالة";
+"MessageBody"="نص الرسالة";
+"VerificationCode"="رمز التفعيل";
+"Country"= "الدولة";
+"ChatTextMessagePlaceholder"="Write your message ...";
+
 //Other
 "Category"="التصنيف";
 "ChooseCategory"="اختر تصنيف";
 
 // validation
-"NotValid"="يبدو ان حقل %@ غير صحيح";
-"FieldRequired"="%@ مطلوب";
-"PasswordNotMatch"="كلمة المرور غير متطابقة";
-"PasswordMustHave6"="كلمة المرور يجب ان تكون اكثر من ستة حروف";
+"NotValid"="عذراً، %@ غير صحيح";
+"FieldRequired" = "عذراً، حقل %@ مطلوب";
+"Required" = "عذراً، %@ مطلوب";
+"PasswordNotMatch"="عذراً، كلمة المرور غير متطابقة";
+"PasswordMustHave6"="عذراً، كلمة المرور يجب ان تكون اكثر من ستة حروف";
 
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="نظام";
 "UIUserInterfaceStyle.light.bs_title"="فاتح";
 "UIUserInterfaceStyle.dark.bs_title"="غامق";
+
+//Firebase
+"TooManyFirebaseRequests" = "لديك طلبات كود تفعيل كثيرة";
+"PhoneNumberIsRequired"   = "الرجاء إدخال رقم الجوال";
+"PhoneNumberIsNotValid"   = "الرجاء إدخال رقم الجوال بشكل صحيح";
+"ConnectionError"         = "تأكد من اتصالك في الإنترنت";
+"VerificationCodeError"   = "يجب التحقق من كود التفعيل";
+
