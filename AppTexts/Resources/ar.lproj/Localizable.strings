@@ -48,12 +48,22 @@
 "SubTitleChangeLanguage"        =  "سوف يتم إغلاق التطبيق ويتوجب عليك فتحه مرة اخرى";
 "SupportLater" = "سيتم دعم هذه الخاصية لاحقا";
 "LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
-"General.DeleteMessage"="هل تريد بالتأكيد حذف %@؟";
-"General.DeleteSuccessfullyMessage"="تم حذف هذا %@ بنجاح";
-"AddGeneralSuccessfully" = "تم إضافة %@ بنجاح";
-"EditGeneralSuccessfully" = "تم تعديل %@ بنجاح";
-"SavedGeneralSuccessfully" = "تم حفظ %@ بنجاح";
-"QuestionYesNo"="هل تريد بالتأكيد %@؟";
+
+"General.QuestionYesNo"="هل تريد بالتأكيد %@؟";
+"General.QuestionYesNo.Delete.message"="هل تريد بالتأكيد حذف %@؟";
+"General.QuestionYesNo.Add.message"="هل تريد بالتأكيد إضافة %@؟";
+"General.QuestionYesNo.Edit.message"="هل تريد بالتأكيد تعديل %@؟";
+"General.QuestionYesNo.Save.message"="هل تريد بالتأكيد حفظ %@؟";
+"General.QuestionYesNo.Send.message"="هل تريد بالتأكيد إرسال %@؟";
+"General.QuestionYesNo.Change.message"="هل تريد بالتأكيد تغير %@؟";
+
+"General.Deleted.Successfully"="تم حذف هذا %@ بنجاح";
+"General.Added.Successfully" = "تم إضافة %@ بنجاح";
+"General.Edited.Successfully" = "تم تعديل %@ بنجاح";
+"General.Saved.Successfully" = "تم حفظ %@ بنجاح";
+"General.Sent.Successfully" = "تم إرسال %@ بنجاح";
+"General.Change.Successfully" = "تم تغير %@ بنجاح";
+
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
