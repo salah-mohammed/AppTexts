@@ -90,6 +90,7 @@
 "AppLanguage"="App Language";
 "ShareApp"="Share App";
 "ChangePassword"="Change Password";
+"ResendVerificationCode"="Resend Verification Code";
 
 // Fields
 "FirstName"="FirstName";

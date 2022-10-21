@@ -91,6 +91,7 @@
 "AppLanguage"="لغة التطبيق";
 "ShareApp"="مشاركة التطبيق";
 "ChangePassword"="تغير كلمة المرور";
+"ResendVerificationCode"="إعادة ارسال رمز التفعيل";
 
 // Fields
 "FirstName"="الاسم الاول";
