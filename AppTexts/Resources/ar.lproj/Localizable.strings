@@ -165,6 +165,12 @@
 "DrivingLicense"="رخصة القيادة";
 "BirthCertificate"="شهادة الميلاد";
 "UniversityCertificate"="شهادة الجامعة";
+"Governorate"="المحافظة";
+"Street"="الشارع";
+"Neighborhood"="الحي";
+"ApartmentNo"="رقم الشقة";
+"BuildingNo"="رقم البناء";
+"FloorNo"="رقم الطابق";
 //Other
 "Category"="التصنيف";
 "ChooseCategory"="اختر تصنيف";

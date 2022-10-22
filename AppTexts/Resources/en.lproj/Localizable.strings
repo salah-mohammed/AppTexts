@@ -165,6 +165,12 @@
 "DrivingLicense"="Driving License";
 "BirthCertificate"="Birth Certificate";
 "UniversityCertificate"="University Certificate";
+"Governorate"="Governorate";
+"Street"="Street";
+"Neighborhood"="Neighborhood";
+"ApartmentNo"="Apartment No";
+"BuildingNo"="Building No";
+"FloorNo"="Floor No";
 //Other
 "Category"="Category";
 "ChooseCategory"="Choose Category";

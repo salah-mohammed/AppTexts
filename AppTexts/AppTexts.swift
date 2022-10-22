@@ -450,4 +450,22 @@ public class AppTexts: NSObject {
     public class var UniversityCertificate:String{
         return "UniversityCertificate".internalLocalize_
     }
+    public class var Governorate:String{
+        return "Governorate".internalLocalize_
+    }
+    public class var Street:String{
+        return "Street".internalLocalize_
+    }
+    public class var Neighborhood:String{
+        return "Neighborhood".internalLocalize_
+    }
+    public class var ApartmentNo:String{
+        return "ApartmentNo".internalLocalize_
+    }
+    public class var BuildingNo:String{
+        return "BuildingNo".internalLocalize_
+    }
+    public class var FloorNo:String{
+        return "FloorNo".internalLocalize_
+    }
 }
