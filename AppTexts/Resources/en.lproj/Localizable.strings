@@ -171,7 +171,7 @@
 "PleaseChoose"="Sorry, choose %@ please";
 "EnterAllFields"="Please enter all fields";
 "PleaseEnter"="Sorry, please enter %@";
-
+"FileSizeLessThanMB"="File size must be less than %@ MB";
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="system";
 "UIUserInterfaceStyle.light.bs_title"="light";

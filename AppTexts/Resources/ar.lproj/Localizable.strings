@@ -172,7 +172,7 @@
 "PleaseChoose" = "عذراً، الرجاء اختيار %@";
 "EnterAllFields"="الرجاء إدخال جميع الحقول";
 "PleaseEnter"= "عذرا ,الرجاء إدخال %@";
-
+"FileSizeLessThanMB"="حجم الملف يجب أن يكون أقل من %@ ميجا بايت";
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="نظام";
 "UIUserInterfaceStyle.light.bs_title"="فاتح";

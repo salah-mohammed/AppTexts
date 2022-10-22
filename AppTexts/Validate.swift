@@ -24,10 +24,12 @@ public class Validate: NSObject {
     public class func pleaseChoose(_ value:String)->String?{
       return  String.init(format: "PleaseChoose".internalLocalize_, arguments:[value])
     }
+    public class func fileSizeLessThanMB(_ value:String)->String?{
+      return  String.init(format: "FileSizeLessThanMB".internalLocalize_, arguments:[value])
+    }
     public class func EnterAllFields(_ fields:[Any?])->String?{
         for fieldItem in fields{
             if fieldItem == nil || (fieldItem as? String)?.isEmpty ?? false == true{
-                break;
                 return Validate.EnterAllFields()
             }
         }
