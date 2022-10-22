@@ -26,6 +26,33 @@ public extension UIUserInterfaceStyle {
         return [.unspecified,.light,.dark]
     }
 }
+public enum QuestionMessage:String{
+case delete="General.QuestionYesNo.Delete"
+case add="General.QuestionYesNo.Add"
+case edit="General.QuestionYesNo.Edit"
+case save="General.QuestionYesNo.Save"
+case send="General.QuestionYesNo.Send"
+case Change="General.QuestionYesNo.Change"
+case Cutome="General.QuestionYesNo"
+    public func string(_ value:String)->String{
+    return String.init(format:self.rawValue.internalLocalize_, arguments:[value])
+}
+}
+public enum DoneSuccessfully:String{
+case deleted="General.Deleted.Successfully"
+case Added="General.Added.Successfully"
+case Edited="General.Edited.Successfully"
+case Saved="General.Saved.Successfully"
+case Sent="General.Sent.Successfully"
+case Change="General.Change.Successfully"
+func string(_ value:String?)->String{
+    if let value:String=value{
+        return String.init(format:self.rawValue.internalLocalize_, arguments:[value])
+    }else{
+        return "\(self.rawValue.internalLocalize_).New".internalLocalize_
+    }
+}
+}
 public class AppTexts: NSObject {
     // Constants
     

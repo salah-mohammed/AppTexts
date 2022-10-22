@@ -41,6 +41,13 @@
 "Filter"="Filter";
 "SearchResult" = "Search Result";
 "Add" = "Add";
+"Back"="Back";
+"Active"="Activate";
+"Next"="Next";
+"Previous"="Previous";
+"WriteAComment"="Write a comment";
+"Attachments"="Attachments";
+"Continue"="Continue";
 // Alerts
 "AlertMessageLogoutConfirmation"="Do you want to log out";
 "Unauthorized" = "There is UnExpected Error , You Should relogin know .";
@@ -48,14 +55,15 @@
 "SubTitleChangeLanguage" = "The app will close and you have to open it again";
 "SupportLater"="This feature will be supported later";
 "LanguageChangedSuccessfully" = "Language changed successfully";
-
+"ChooseCountry"="Sorry, Choose Country";
 "General.QuestionYesNo"="Are you sure you want to %@?";
-"General.QuestionYesNo.Delete.message"="Are you sure you want to delete this %@?";
-"General.QuestionYesNo.Add.message"="Are you sure you want to add this %@?";
-"General.QuestionYesNo.Edit.message"="Are you sure you want to edit this %@?";
-"General.QuestionYesNo.Save.message"="Are you sure you want to save this %@?";
-"General.QuestionYesNo.Send.message"="Are you sure you want to send this %@?";
-"General.QuestionYesNo.Change.message"="Are you sure you want to change this %@?";
+
+"General.QuestionYesNo.Delete"="Are you sure you want to delete this %@?";
+"General.QuestionYesNo.Add"="Are you sure you want to add this %@?";
+"General.QuestionYesNo.Edit"="Are you sure you want to edit this %@?";
+"General.QuestionYesNo.Save"="Are you sure you want to save this %@?";
+"General.QuestionYesNo.Send"="Are you sure you want to send this %@?";
+"General.QuestionYesNo.Change"="Are you sure you want to change this %@?";
 
 "General.Deleted.Successfully"="This %@ has been deleted successfully";
 "General.Added.Successfully" = "This %@ has been Added Successfully";
@@ -63,6 +71,13 @@
 "General.Saved.Successfully" = "This %@ has been Saved Successfully";
 "General.Sent.Successfully" = "This %@ has been Sent Successfully";
 "General.Changed.Successfully" = "This %@ has been Changed Successfully";
+
+"General.Deleted.Successfully.New"="This has been deleted successfully";
+"General.Added.Successfully.New" = "This has been Added Successfully";
+"General.Edited.Successfully.New" = "This has been Edited Successfully";
+"General.Saved.Successfully.New" = "This has been Saved Successfully";
+"General.Sent.Successfully.New" = "This has been Sent Successfully";
+"General.Changed.Successfully.New" = "This has been Changed Successfully";
 
 //Titles
 "ContactUs"="Contact Us";
@@ -103,7 +118,12 @@
 "ChangePassword"="Change Password";
 "ResendVerificationCode"="Resend Verification Code";
 "CompleteProfile" ="Complete Profile";
-
+"Update"="Update";
+"Instructions"="Instructions";
+"RateUs"="Rate Us";
+"Price"="Price";
+"ExpiryDate"="Expiry date";
+"UsagePolicy"="Usage policy";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";
@@ -132,7 +152,10 @@
 "Country"= "Country";
 "ChatTextMessagePlaceholder"="Write your message ...";
 "General.Message" = "Message";
-
+"AddressOnMap"="Address On Map";
+"CurrentLocation" = "Current location";
+"SearchHere"="Search here";
+"Nationality"="Nationality";
 //Other
 "Category"="Category";
 "ChooseCategory"="Choose Category";
@@ -143,6 +166,7 @@
 "Required"="Sorry, The %@ is required";
 "PasswordNotMatch"="Sorry, Password does not match";
 "PasswordMustHave6"="Sorry,Password must be more than six characters";
+"ChooseValid"="Sorry, choose %@";
 
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="system";
@@ -156,3 +180,21 @@
 "PhoneNumberIsNotValid"                                                           = "Phone Number is not correct";
 "PhoneNumberIsRequired"                                                           = "Phone Number is required";
 "TooManyFirebaseRequests"                                                         = "You have too many activation code requests";
+
+//cutom
+"Reports"="Reports";
+"Report"="Report";
+"Total"="Total";
+"Favorites"="Favorites";
+"MyOrders"="My Orders";
+"Orders"="Orders";
+"My Offers"="My Offers";
+"Offers"="Offers";
+"Points"="Points";
+"MyPoints"="My Points";
+"OfferDetails"="Offer details";
+"Categories"="Categories";
+"Rate"="Rate";
+//
+//cutom
+"VerificationCodeHasBeenSent"="The verification code has been sent to the number you entered";

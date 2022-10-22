@@ -38,9 +38,16 @@
 "KM"="%@ كم";
 "ShowMore" = "إقرا المزيد";
 "ShowLess" = "إقرا اقل";
-"Filter"="فلتر";
+"Filter"="فلترة";
 "SearchResult" = "نتائج البحث";
 "Add" = "إضافة";
+"Back"="رجوع";
+"Activate"="تفعيل";
+"Next"="التالي";
+"Previous"="السابق";
+"WriteAComment"="اكتب تعليقا";
+"Attachments"="المرفقات";
+"Continue"="استمرار";
 //Alerts
 "AlertMessageLogoutConfirmation"="هل تريد تسجيل الخروج؟";
 "Unauthorized"                  = "حدث خطأ غير متوقع , يجب إعادة الدخول مرة إخري";
@@ -48,14 +55,16 @@
 "SubTitleChangeLanguage"        =  "سوف يتم إغلاق التطبيق ويتوجب عليك فتحه مرة اخرى";
 "SupportLater" = "سيتم دعم هذه الخاصية لاحقا";
 "LanguageChangedSuccessfully"   = "تم تغير اللغة بنجاح";
+"ChooseCountry"="عذرا ،اختر الدولة";
 
 "General.QuestionYesNo"="هل تريد بالتأكيد %@؟";
-"General.QuestionYesNo.Delete.message"="هل تريد بالتأكيد حذف %@؟";
-"General.QuestionYesNo.Add.message"="هل تريد بالتأكيد إضافة %@؟";
-"General.QuestionYesNo.Edit.message"="هل تريد بالتأكيد تعديل %@؟";
-"General.QuestionYesNo.Save.message"="هل تريد بالتأكيد حفظ %@؟";
-"General.QuestionYesNo.Send.message"="هل تريد بالتأكيد إرسال %@؟";
-"General.QuestionYesNo.Change.message"="هل تريد بالتأكيد تغير %@؟";
+
+"General.QuestionYesNo.Delete"="هل تريد بالتأكيد حذف %@؟";
+"General.QuestionYesNo.Add"="هل تريد بالتأكيد إضافة %@؟";
+"General.QuestionYesNo.Edit"="هل تريد بالتأكيد تعديل %@؟";
+"General.QuestionYesNo.Save"="هل تريد بالتأكيد حفظ %@؟";
+"General.QuestionYesNo.Send"="هل تريد بالتأكيد إرسال %@؟";
+"General.QuestionYesNo.Change"="هل تريد بالتأكيد تغير %@؟";
 
 "General.Deleted.Successfully"="تم حذف هذا %@ بنجاح";
 "General.Added.Successfully" = "تم إضافة %@ بنجاح";
@@ -64,6 +73,12 @@
 "General.Sent.Successfully" = "تم إرسال %@ بنجاح";
 "General.Change.Successfully" = "تم تغير %@ بنجاح";
 
+"General.Deleted.Successfully.New"="تم الحذف بنجاح";
+"General.Added.Successfully.New" = "تمت الإضافة بنجاح";
+"General.Edited.Successfully.New" = "تم التعديل  بنجاح";
+"General.Saved.Successfully.New" = "تم الحفظ بنجاح";
+"General.Sent.Successfully.New" = "تم الإرسال بنجاح";
+"General.Change.Successfully.New" = "تم التغير بنجاح";
 //Titles
 "ContactUs"="اتصل بنا";
 "TermsAndConditions"="الشروط و الأحكام";
@@ -103,7 +118,12 @@
 "ChangePassword"="تغير كلمة المرور";
 "ResendVerificationCode"="إعادة ارسال رمز التفعيل";
 "CompleteProfile"="إكمال الملف الشخصي";
-
+"Update"="تحديث";
+"Instructions"="التعليمات";
+"RateUs"="قيمنا";
+"Price"="السعر";
+"ExpiryDate"="تاريخ الإنتهاء";
+"UsagePolicy"="سياسة الاستخدام";
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
@@ -132,6 +152,10 @@
 "Country"= "الدولة";
 "ChatTextMessagePlaceholder"="...أكتب رسالتك";
 "General.Message"="الرسالة";
+"AddressOnMap" = "العنوان على الخريطة";
+"CurrentLocation" = "الموقع الحالي";
+"SearchHere"="ابحث هنا";
+"Nationality"="الجنسية";
 
 //Other
 "Category"="التصنيف";
@@ -143,6 +167,7 @@
 "Required" = "عذراً، %@ مطلوب";
 "PasswordNotMatch"="عذراً، كلمة المرور غير متطابقة";
 "PasswordMustHave6"="عذراً، كلمة المرور يجب ان تكون اكثر من ستة حروف";
+"ChooseValid" = "عذراً، اختر %@";
 
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="نظام";
@@ -156,3 +181,19 @@
 "ConnectionError"         = "تأكد من اتصالك في الإنترنت";
 "VerificationCodeError"   = "يجب التحقق من كود التفعيل";
 
+//cutom
+"Reports"="المقالات";
+"Report"="إبلاغ";
+"Total"="المجموع";
+"Favorites"="المفضلة";
+"MyOrders"="طلباتي";
+"Orders"="الطلبات";
+"My Offers"="عروضي";
+"Offers"="العروض";
+"Points"="النقاط";
+"MyPoints"="نقاطي";
+"OfferDetails"="تفاصيل العرض";
+"Categories"="التصنيفات";
+"Rate"="تقييم";
+//cutom
+"VerificationCodeHasBeenSent" = "لقد تم ارسال رمز التحقق برسالة إلى الرقم الذي ادخلته مسبقًا";

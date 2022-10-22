@@ -15,6 +15,7 @@ public class Validate: NSObject {
     public class func fieldNotValid(_ value:String)->String?{
       return  String.init(format: "NotValid".internalLocalize_, arguments:[value])
     }
+    
     func newPassword(_ newPassword:String?)->String?{
         if newPassword?.isEmpty ?? true{
             return Validate.fieldRequired(AppTexts.NewPassword);
