@@ -42,13 +42,16 @@
 "SearchResult" = "Search Result";
 "Add" = "Add";
 "Back"="Back";
-"Active"="Activate";
+"Activate"="Activate";
 "Next"="Next";
 "Previous"="Previous";
 "WriteAComment"="Write a comment";
 "Attachments"="Attachments";
 "Continue"="Continue";
 "ClearAll"="Clear All";
+"File"="File";
+"Photo"="Photo";
+"ProfilePicture"="Profile Picture";
 // Alerts
 "AlertMessageLogoutConfirmation"="Do you want to log out";
 "Unauthorized" = "There is UnExpected Error , You Should relogin know .";
@@ -72,6 +75,7 @@
 "General.Saved.Successfully" = "This %@ has been Saved Successfully";
 "General.Sent.Successfully" = "This %@ has been Sent Successfully";
 "General.Changed.Successfully" = "This %@ has been Changed Successfully";
+"General.Uploaded.Successfully" = "This %@ has been Uploaded Successfully";
 
 "General.Deleted.Successfully.New"="This has been deleted successfully";
 "General.Added.Successfully.New" = "This has been Added Successfully";
@@ -79,6 +83,7 @@
 "General.Saved.Successfully.New" = "This has been Saved Successfully";
 "General.Sent.Successfully.New" = "This has been Sent Successfully";
 "General.Changed.Successfully.New" = "This has been Changed Successfully";
+"General.Uploaded.Successfully.New" = "This has been Uploaded Successfully";
 
 //Titles
 "ContactUs"="Contact Us";
@@ -119,7 +124,6 @@
 "ChangePassword"="Change Password";
 "ResendVerificationCode"="Resend Verification Code";
 "CompleteProfile" ="Complete Profile";
-"Update"="Update";
 "Instructions"="Instructions";
 "RateUs"="Rate Us";
 "Price"="Price";
@@ -158,6 +162,9 @@
 "CurrentLocation" = "Current location";
 "SearchHere"="Search here";
 "Nationality"="Nationality";
+"DrivingLicense"="Driving License";
+"BirthCertificate"="Birth Certificate";
+"UniversityCertificate"="University Certificate";
 //Other
 "Category"="Category";
 "ChooseCategory"="Choose Category";
