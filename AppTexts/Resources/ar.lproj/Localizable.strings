@@ -48,6 +48,7 @@
 "WriteAComment"="اكتب تعليقا";
 "Attachments"="المرفقات";
 "Continue"="استمرار";
+"ClearAll"="مسح الكل";
 //Alerts
 "AlertMessageLogoutConfirmation"="هل تريد تسجيل الخروج؟";
 "Unauthorized"                  = "حدث خطأ غير متوقع , يجب إعادة الدخول مرة إخري";
@@ -124,6 +125,7 @@
 "Price"="السعر";
 "ExpiryDate"="تاريخ الإنتهاء";
 "UsagePolicy"="سياسة الاستخدام";
+"Verification"="التحقق";
 // Fields
 "FirstName"="الاسم الاول";
 "LastName"="الاسم الأخير";
@@ -167,7 +169,9 @@
 "Required" = "عذراً، %@ مطلوب";
 "PasswordNotMatch"="عذراً، كلمة المرور غير متطابقة";
 "PasswordMustHave6"="عذراً، كلمة المرور يجب ان تكون اكثر من ستة حروف";
-"ChooseValid" = "عذراً، اختر %@";
+"PleaseChoose" = "عذراً، الرجاء اختيار %@";
+"EnterAllFields"="الرجاء إدخال جميع الحقول";
+"PleaseEnter"= "عذرا ,الرجاء إدخال %@";
 
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="نظام";

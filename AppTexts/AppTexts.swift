@@ -26,6 +26,16 @@ public extension UIUserInterfaceStyle {
         return [.unspecified,.light,.dark]
     }
 }
+public enum FireBaseError:String{
+ case tooMany="TooManyFirebaseRequests"
+ case required="PhoneNumberIsRequired"
+ case notValid="PhoneNumberIsNotValid"
+ case connectionError="ConnectionError"
+ case verificationCodeError="VerificationCodeError"
+    public func string(_ value:String)->String{
+    return self.rawValue.internalLocalize_
+    }
+}
 public enum QuestionMessage:String{
 case delete="General.QuestionYesNo.Delete"
 case add="General.QuestionYesNo.Add"

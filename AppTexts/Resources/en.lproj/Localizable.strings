@@ -48,6 +48,7 @@
 "WriteAComment"="Write a comment";
 "Attachments"="Attachments";
 "Continue"="Continue";
+"ClearAll"="Clear All";
 // Alerts
 "AlertMessageLogoutConfirmation"="Do you want to log out";
 "Unauthorized" = "There is UnExpected Error , You Should relogin know .";
@@ -124,6 +125,7 @@
 "Price"="Price";
 "ExpiryDate"="Expiry date";
 "UsagePolicy"="Usage policy";
+"Verification"="Verification";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";
@@ -166,7 +168,9 @@
 "Required"="Sorry, The %@ is required";
 "PasswordNotMatch"="Sorry, Password does not match";
 "PasswordMustHave6"="Sorry,Password must be more than six characters";
-"ChooseValid"="Sorry, choose %@";
+"PleaseChoose"="Sorry, choose %@ please";
+"EnterAllFields"="Please enter all fields";
+"PleaseEnter"="Sorry, please enter %@";
 
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="system";

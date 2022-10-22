@@ -12,10 +12,30 @@ public class Validate: NSObject {
     public class func fieldRequired(_ value:String)->String?{
       return  String.init(format: "FieldRequired".internalLocalize_, arguments:[value])
     }
+    public class func required(_ value:String)->String?{
+      return  String.init(format: "Required".internalLocalize_, arguments:[value])
+    }
     public class func fieldNotValid(_ value:String)->String?{
       return  String.init(format: "NotValid".internalLocalize_, arguments:[value])
     }
-    
+    public class func pleaseEnter(_ value:String)->String?{
+      return  String.init(format: "PleaseEnter".internalLocalize_, arguments:[value])
+    }
+    public class func pleaseChoose(_ value:String)->String?{
+      return  String.init(format: "PleaseChoose".internalLocalize_, arguments:[value])
+    }
+    public class func EnterAllFields(_ fields:[Any?])->String?{
+        for fieldItem in fields{
+            if fieldItem == nil || (fieldItem as? String)?.isEmpty ?? false == true{
+                break;
+                return Validate.EnterAllFields()
+            }
+        }
+        return nil;
+    }
+    public class func EnterAllFields()->String{
+    return "EnterAllFields".internalLocalize_
+    }
     func newPassword(_ newPassword:String?)->String?{
         if newPassword?.isEmpty ?? true{
             return Validate.fieldRequired(AppTexts.NewPassword);
