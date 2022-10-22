@@ -22,9 +22,6 @@ public extension UIUserInterfaceStyle {
         }
         return nil
     }
-    public static var bs_all:[UIUserInterfaceStyle]{
-        return [.unspecified,.light,.dark]
-    }
 }
 public enum FireBaseError:String{
  case tooMany="TooManyFirebaseRequests"
