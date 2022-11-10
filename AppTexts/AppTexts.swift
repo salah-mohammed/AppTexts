@@ -5,9 +5,8 @@
 //  Created by Salah on 11/30/21.
 //  Copyright © 2021 Salah. All rights reserved.
 //
-
+#if os(iOS)
 import UIKit
-
 public extension UIUserInterfaceStyle {
     var bs_title:String?{
         switch self {
@@ -23,6 +22,7 @@ public extension UIUserInterfaceStyle {
         return nil
     }
 }
+#endif
 public enum FireBaseError:String{
  case tooMany="TooManyFirebaseRequests"
  case required="PhoneNumberIsRequired"
