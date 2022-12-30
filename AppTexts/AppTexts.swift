@@ -63,6 +63,12 @@ func string(_ value:String?)->String{
 }
 public class AppTexts: NSObject {
     // Constants
+    public class var All:String{
+        return "All".internalLocalize_
+    }
+    public class var DownloadAll:String{
+        return "DownloadAll".internalLocalize_
+    }
     public class var PasswordMustHave6:String{
         return "PasswordMustHave6".internalLocalize_
     }

@@ -6,6 +6,8 @@
   
 */
 // Constants
+"All"="الكل";
+"DownloadAll"="تحميل الكل";
 "CantNotOpenLink"="لايمكن فتح هذا الرابط";
 "Choose"="اختر";
 "Ok"="تم";

@@ -6,6 +6,8 @@
   
 */
 // Constants
+"All"="All";
+"DownloadAll"="DownloadAll";
 "CantNotOpenLink"="Can't open this link";
 "Choose"="Choose";
 "Ok"="Ok";
