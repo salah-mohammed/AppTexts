@@ -76,7 +76,7 @@ Quesstion Meesages.
     QuestionMessage.save.string(AppTexts.Product) //result ->  //EN:Are you sure you want to save this Product?  //AR:هل تريد بالتأكيد حفظ المنتج؟
     QuestionMessage.send.string(AppTexts.Product) //result ->  //EN:Are you sure you want to send this Product?  //AR:هل تريد بالتأكيد إرسال المنتج؟
     QuestionMessage.change.string(AppTexts.Product) //result ->  //EN:Are you sure you want to change this Product?  //AR:هل تريد بالتأكيد تغير المنتج؟
-    QuestionMessage.cutome.string("حذف هذا العنصر؟") //result ->  //EN:"Are you sure you want to حذف هذا العنصر?" //AR:"هل تريد بالتأكيد حذف هذا العنصر؟"
+    QuestionMessage.cutome.string("حذف هذا العنصر") //result ->  //EN:"Are you sure you want to حذف هذا العنصر?" //AR:"هل تريد بالتأكيد حذف هذا العنصر؟"
  ```
 
 # Configure Successfully
