@@ -25,15 +25,15 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
 
 ```swift
     AppTexts.UserName   //result ->  //EN: UserName      //AR:اسم المستخدم
-    AppTexts.FullName
-    AppTexts.Cancel
-    AppTexts.Error
-    AppTexts.Ok
-    AppTexts.Search
-    AppTexts.SearchHere
-    AppTexts.SeeAll
-    AppTexts.Done
-    AppTexts.Skip
+    AppTexts.FullName   //result ->  //EN:Fullname       //AR: الإسم الكامل
+    AppTexts.Cancel     //result ->  //EN:Cancel       //AR: إلغاء
+    AppTexts.Error      //result ->  //EN:Error       //AR: خطأ
+    AppTexts.Ok         //result ->  //EN:Ok       //AR: تم
+    AppTexts.Search     //result ->  //EN:Search       //AR: ابحث هنا
+    AppTexts.SearchHere //result ->  //EN:Search here       //AR: 
+    AppTexts.SeeAll     //result ->  //EN:See All       //AR:عرض المزيد
+    AppTexts.Done       //result ->  //EN:Done       //AR:تم
+    AppTexts.Skip       //result ->  //EN:skip       //AR: تخطي
 
 ```
 - Validation Messages(Error Messages).
