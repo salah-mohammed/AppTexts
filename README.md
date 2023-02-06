@@ -73,34 +73,11 @@ Quesstion Meesages.
         QuestionMessage.cutome.string("حذف هذا العنصر؟")
  ```
 
-if you want to set background image for Navigation bar and set title color for it.
-
- ```swift
- class ForthViewController: UIViewController,NavigationDelegate {
-
-    var style=Navigation.Style.init(Navigation.Style.custom(.all(AppStyle.backgroundImageBarStyle),UIColor.white))
-    
-        public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-}
- ```
-- Thired
-
-if you want to set default style 'if Viewcontroller not implement NavigationInfoDelegate'
-```swift
-Navigation.shared.defaultStyle = Navigation.Style.custom(.all(AppStyle.yelloBarStyle),UIColor.white)
-
- ```
 # Configure Successfully
 
-# You can refresh navigation style by 
-```swift
-self.navigationController?.refrehStyle();
- ```
 ## License
 
-NavigationKit is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/AppTexts/blob/master/LICENSE) for details.
+AppTexts is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/AppTexts/blob/master/LICENSE) for details.
 
 # Developer's information to communicate
 
