@@ -61,17 +61,16 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
         DoneSuccessfully.uploaded.string(nil)
 
 ```
-if you want to hide Navigation bar.
+Quesstion Meesages.
 
  ```swift
- class ThiredViewController: UIViewController,NavigationDelegate {
-
-    var style=Navigation.Style.init(Navigation.Style.hide);
-    
-        public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-}
+        QuestionMessage.delete.string(AppTexts.Product)
+        QuestionMessage.add.string(AppTexts.Product)
+        QuestionMessage.edit.string(AppTexts.Product)
+        QuestionMessage.save.string(AppTexts.Product)
+        QuestionMessage.send.string(AppTexts.Product)
+        QuestionMessage.change.string(AppTexts.Product)
+        QuestionMessage.cutome.string("حذف هذا العنصر؟")
  ```
 
 if you want to set background image for Navigation bar and set title color for it.
