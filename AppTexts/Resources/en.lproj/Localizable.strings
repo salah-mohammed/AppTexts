@@ -135,10 +135,10 @@
 "Item"="Item";
 "Product"="Product";
 // Fields
-"FirstName"="FirstName";
-"LastName"="LastName";
-"FullName"="FullName";
-"UserName"="FullName";
+"FirstName"="Firstname";
+"LastName"="Lastname";
+"FullName"="Fullname";
+"UserName"="Username";
 "Password"="Password";
 "ConfirmPassword"="Confirm Password";
 "NewPassword"="New Password";
