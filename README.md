@@ -24,14 +24,11 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
 - First
 
 ```swift
-public class MainNavigationController: NavigationController {
-
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
-}
+        AppTexts.UserName
+        AppTexts.FullName
+        AppTexts.Cancel
+        AppTexts.Error
+        AppTexts.Ok
 ```
 - Second
 
