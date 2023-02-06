@@ -38,45 +38,44 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
 ```
 - Validation Messages(Error Messages).
 ```swift
-    Validate.fieldNotValid(AppTexts.UserName)
-    Validate.fieldRequired(AppTexts.UserName)
-    Validate.EnterAllFields()
-    Validate.pleaseEnter(AppTexts.UserName)
-    Validate.pleaseChoose(AppTexts.City)
-    Validate.EnterAllFields(["Palestine",nil,"Gaza"])
-
+    Validate.fieldNotValid(AppTexts.UserName)  //result ->  //EN:Sorry, Invalid %@    //AR:عذراً، %@ غير صحيح
+    Validate.fieldRequired(AppTexts.UserName)  //result ->  //EN:Sorry, The %@ Field is required    //AR:عذراً، حقل %@ مطلوب
+    Validate.EnterAllFields()                  //result ->  //EN:EnterAllFields     //AR:الرجاء إدخال جميع الحقول
+    Validate.pleaseEnter(AppTexts.UserName)    //result ->  //EN:Sorry, please enter %@    //AR:عذرا ,الرجاء إدخال %@
+    Validate.pleaseChoose(AppTexts.City)       //result ->  //EN:Sorry, choose %@ please         //AR:عذراً، الرجاء اختيار %@
+    Validate.EnterAllFields(["Palestine",nil,"Gaza"])  //result ->  //EN:EnterAllFields     //AR:الرجاء إدخال جميع الحقول
  ```
  
  Success Messages.
  
  ```swift
-    DoneSuccessfully.added.string(AppTexts.Product)
-    DoneSuccessfully.deleted.string(AppTexts.Product)
-    DoneSuccessfully.change.string(AppTexts.Product)
-    DoneSuccessfully.edited.string(AppTexts.Product)
-    DoneSuccessfully.saved.string(AppTexts.Product)
-    DoneSuccessfully.sent.string(AppTexts.Product)
-    DoneSuccessfully.uploaded.string(AppTexts.Product)
+    DoneSuccessfully.added.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.deleted.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.change.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.edited.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.saved.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.sent.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.uploaded.string(AppTexts.Product) //result ->  //EN: //AR:
 
-    DoneSuccessfully.added.string(nil)
-    DoneSuccessfully.deleted.string(nil)
-    DoneSuccessfully.change.string(nil)
-    DoneSuccessfully.edited.string(nil)
-    DoneSuccessfully.saved.string(nil)
-    DoneSuccessfully.sent.string(nil)
-    DoneSuccessfully.uploaded.string(nil)
+    DoneSuccessfully.added.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.deleted.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.change.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.edited.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.saved.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.sent.string(nil) //result ->  //EN: //AR:
+    DoneSuccessfully.uploaded.string(nil) //result ->  //EN: //AR:
 
 ```
 Quesstion Meesages.
 
  ```swift
-    QuestionMessage.delete.string(AppTexts.Product)
-    QuestionMessage.add.string(AppTexts.Product)
-    QuestionMessage.edit.string(AppTexts.Product)
-    QuestionMessage.save.string(AppTexts.Product)
-    QuestionMessage.send.string(AppTexts.Product)
-    QuestionMessage.change.string(AppTexts.Product)
-    QuestionMessage.cutome.string("حذف هذا العنصر؟")
+    QuestionMessage.delete.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.add.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.edit.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.save.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.send.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.change.string(AppTexts.Product) //result ->  //EN: //AR:
+    QuestionMessage.cutome.string("حذف هذا العنصر؟") //result ->  //EN: //AR:
  ```
 
 # Configure Successfully
