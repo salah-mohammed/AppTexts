@@ -32,6 +32,9 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
         AppTexts.Search
         AppTexts.SearchHere
         AppTexts.SeeAll
+        AppTexts.Done
+        AppTexts.Skip
+
 ```
 - Validation Messages(Error Messages).
 ```swift
