@@ -24,7 +24,7 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
 - Constants Texts Example
 
 ```swift
-    AppTexts.UserName
+    AppTexts.UserName   //result ->  //EN: UserName      //AR:اسم المستخدم
     AppTexts.FullName
     AppTexts.Cancel
     AppTexts.Error
