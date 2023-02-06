@@ -49,13 +49,13 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
  Success Messages.
  
  ```swift
-    DoneSuccessfully.added.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.deleted.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.change.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.edited.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.saved.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.sent.string(AppTexts.Product) //result ->  //EN: //AR:
-    DoneSuccessfully.uploaded.string(AppTexts.Product) //result ->  //EN: //AR:
+    DoneSuccessfully.added.string(AppTexts.Product) //result ->  //EN:This %@ has been Added Successfully  //AR:تم إضافة %@ بنجاح
+    DoneSuccessfully.deleted.string(AppTexts.Product) //result ->  //EN:This %@ has been Added Successfully  //AR:تم إضافة %@ بنجاح
+    DoneSuccessfully.change.string(AppTexts.Product) //result ->  //EN:This %@ has been Changed Successfully  //AR:تم تغير %@ بنجاح
+    DoneSuccessfully.edited.string(AppTexts.Product) //result ->  //EN:This %@ has been Edited Successfully  //AR:تم تعديل %@ بنجاح
+    DoneSuccessfully.saved.string(AppTexts.Product) //result ->  //EN:This %@ has been Saved Successfully  //AR:تم حفظ %@ بنجاح
+    DoneSuccessfully.sent.string(AppTexts.Product) //result ->  //EN:This %@ has been Sent Successfully  //AR:تم إرسال %@ بنجاح
+    DoneSuccessfully.uploaded.string(AppTexts.Product) //result ->  //EN:This %@ has been Uploaded Successfully  //AR:تم رفع %@ بنجاح
 
     DoneSuccessfully.added.string(nil) //result ->  //EN: //AR:
     DoneSuccessfully.deleted.string(nil) //result ->  //EN: //AR:
