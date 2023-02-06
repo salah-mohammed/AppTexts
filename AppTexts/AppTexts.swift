@@ -47,13 +47,13 @@ case cutome="General.QuestionYesNo"
 }
 public enum DoneSuccessfully:String{
 case deleted="General.Deleted.Successfully"
-case Added="General.Added.Successfully"
-case Edited="General.Edited.Successfully"
-case Saved="General.Saved.Successfully"
-case Sent="General.Sent.Successfully"
-case Change="General.Change.Successfully"
+case added="General.Added.Successfully"
+case edited="General.Edited.Successfully"
+case saved="General.Saved.Successfully"
+case sent="General.Sent.Successfully"
+case change="General.Change.Successfully"
 case uploaded="General.Uploaded.Successfully"
-func string(_ value:String?)->String{
+public func string(_ value:String?)->String{
     if let value:String=value{
         return String.init(format:self.rawValue.internalLocalize_, arguments:[value])
     }else{
@@ -213,6 +213,13 @@ public class AppTexts: NSObject {
     public class var ProfilePicture:String{
         return "ProfilePicture".internalLocalize_
     }
+    public class var Item:String{
+        return "Item".internalLocalize_
+    }
+    public class var Product:String{
+        return "Product".internalLocalize_
+    }
+    
     // Alerts
     public class var LogoutConfirmation:String{
         return "AlertMessageLogoutConfirmation".internalLocalize_

@@ -132,6 +132,8 @@
 "ExpiryDate"="Expiry date";
 "UsagePolicy"="Usage policy";
 "Verification"="Verification";
+"Item"="Item";
+"Product"="Product";
 // Fields
 "FirstName"="FirstName";
 "LastName"="LastName";
@@ -181,12 +183,12 @@
 "NotValid"="Sorry, Invalid %@";
 "FieldRequired"="Sorry, The %@ Field is required";
 "Required"="Sorry, The %@ is required";
-"PasswordNotMatch"="Sorry, Password does not match";
-"PasswordMustHave6"="Sorry,Password must be more than six characters";
 "PleaseChoose"="Sorry, choose %@ please";
 "EnterAllFields"="Please enter all fields";
 "PleaseEnter"="Sorry, please enter %@";
 "FileSizeLessThanMB"="File size must be less than %@ MB";
+"PasswordNotMatch"="Sorry, Password does not match";
+"PasswordMustHave6"="Sorry,Password must be more than six characters";
 //dark mode
 "UIUserInterfaceStyle.unspecified.bs_title"="system";
 "UIUserInterfaceStyle.light.bs_title"="light";
