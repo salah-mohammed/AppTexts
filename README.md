@@ -44,20 +44,20 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
  Success Messages.
  
  ```swift
-        DoneSuccessfully.Added.string(AppTexts.Product)
+        DoneSuccessfully.added.string(AppTexts.Product)
         DoneSuccessfully.deleted.string(AppTexts.Product)
-        DoneSuccessfully.Change.string(AppTexts.Product)
-        DoneSuccessfully.Edited.string(AppTexts.Product)
-        DoneSuccessfully.Saved.string(AppTexts.Product)
-        DoneSuccessfully.Sent.string(AppTexts.Product)
+        DoneSuccessfully.change.string(AppTexts.Product)
+        DoneSuccessfully.edited.string(AppTexts.Product)
+        DoneSuccessfully.saved.string(AppTexts.Product)
+        DoneSuccessfully.sent.string(AppTexts.Product)
         DoneSuccessfully.uploaded.string(AppTexts.Product)
 
-        DoneSuccessfully.Added.string(nil)
+        DoneSuccessfully.added.string(nil)
         DoneSuccessfully.deleted.string(nil)
-        DoneSuccessfully.Change.string(nil)
-        DoneSuccessfully.Edited.string(nil)
-        DoneSuccessfully.Saved.string(nil)
-        DoneSuccessfully.Sent.string(nil)
+        DoneSuccessfully.change.string(nil)
+        DoneSuccessfully.edited.string(nil)
+        DoneSuccessfully.saved.string(nil)
+        DoneSuccessfully.sent.string(nil)
         DoneSuccessfully.uploaded.string(nil)
 
 ```
