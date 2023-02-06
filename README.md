@@ -21,7 +21,7 @@ AppTexts used for make deal with business app more easier.
 pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
  
 ```
-- First
+- Constants Texts Example
 
 ```swift
         AppTexts.UserName
@@ -30,33 +30,36 @@ pod 'AppTexts',:git => "https://github.com/salah-mohammed/AppTexts.git"
         AppTexts.Error
         AppTexts.Ok
 ```
-- Second
-
-if you want set Navigation bar transparent and change title color .
+- Validation Messages(Error Messages).
 ```swift
-class FirstViewController: UIViewController,NavigationDelegate {
- 
-   var style=Navigation.Style.init(Navigation.Style.custom(.all(AppStyle.transparentBarStyle),UIColor.black))
-    
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
- }
+        Validate.fieldNotValid(AppTexts.UserName)
+        Validate.fieldRequired(AppTexts.UserName)
+        Validate.EnterAllFields()
+        Validate.pleaseEnter(AppTexts.UserName)
+        Validate.pleaseChoose(AppTexts.City)
+        Validate.EnterAllFields(["Palestine",nil,"Gaza"])
 
  ```
  
- if you want to set Navigation bar color and set title color for it.
+ Success Messages.
  
  ```swift
+        DoneSuccessfully.Added.string(AppTexts.Product)
+        DoneSuccessfully.deleted.string(AppTexts.Product)
+        DoneSuccessfully.Change.string(AppTexts.Product)
+        DoneSuccessfully.Edited.string(AppTexts.Product)
+        DoneSuccessfully.Saved.string(AppTexts.Product)
+        DoneSuccessfully.Sent.string(AppTexts.Product)
+        DoneSuccessfully.uploaded.string(AppTexts.Product)
 
-  class SecondViewController: UIViewController,NavigationDelegate {
-  
-  var style=Navigation.Style.init(Navigation.Style.custom(.all(AppStyle.greenBarStyle),UIColor.white))
-    
-        public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-}
+        DoneSuccessfully.Added.string(nil)
+        DoneSuccessfully.deleted.string(nil)
+        DoneSuccessfully.Change.string(nil)
+        DoneSuccessfully.Edited.string(nil)
+        DoneSuccessfully.Saved.string(nil)
+        DoneSuccessfully.Sent.string(nil)
+        DoneSuccessfully.uploaded.string(nil)
+
 ```
 if you want to hide Navigation bar.
 
