@@ -184,8 +184,8 @@
 "FieldRequired" = "عذراً، حقل %@ مطلوب";
 "Required" = "عذراً، %@ مطلوب";
 "PleaseChoose" = "عذراً، الرجاء اختيار %@";
-"EnterAllFields"="الرجاء إدخال جميع الحقول";
 "PleaseEnter"= "عذرا ,الرجاء إدخال %@";
+"EnterAllFields"="الرجاء إدخال جميع الحقول";
 "FileSizeLessThanMB"="حجم الملف يجب أن يكون أقل من %@ ميجا بايت";
 "PasswordNotMatch"="عذراً، كلمة المرور غير متطابقة";
 "PasswordMustHave6"="عذراً، كلمة المرور يجب ان تكون اكثر من ستة حروف";

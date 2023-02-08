@@ -184,8 +184,8 @@
 "FieldRequired"="Sorry, The %@ Field is required";
 "Required"="Sorry, The %@ is required";
 "PleaseChoose"="Sorry, choose %@ please";
-"EnterAllFields"="Please enter all fields";
 "PleaseEnter"="Sorry, please enter %@";
+"EnterAllFields"="Please enter all fields";
 "FileSizeLessThanMB"="File size must be less than %@ MB";
 "PasswordNotMatch"="Sorry, Password does not match";
 "PasswordMustHave6"="Sorry,Password must be more than six characters";
