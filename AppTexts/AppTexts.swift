@@ -25,8 +25,8 @@ public extension UIUserInterfaceStyle {
 #endif
 public enum FireBaseError:String{
  case tooMany="TooManyFirebaseRequests"
- case required="PhoneNumberIsRequired"
- case notValid="PhoneNumberIsNotValid"
+ case required="MobileNumberIsRequired"
+ case notValid="MobileNumberIsNotValid"
  case connectionError="ConnectionError"
  case verificationCodeError="VerificationCodeError"
     public func string(_ value:String)->String{
@@ -391,8 +391,8 @@ public class AppTexts: NSObject {
     public class var Region:String{
         return "Region".internalLocalize_
     }
-    public class var PhoneNumber:String{
-        return "PhoneNumber".internalLocalize_
+    public class var MobileNumber:String{
+        return "MobileNumber".internalLocalize_
     }
     public class var Title:String{
         return "Title".internalLocalize_
@@ -436,8 +436,8 @@ public class AppTexts: NSObject {
     public class var ChatTextMessagePlaceholder:String{
         return "ChatTextMessagePlaceholder".internalLocalize_
     }
-    public class var GeneralMessage:String{
-        return "General.Message".internalLocalize_
+    public class var Message:String{
+        return "Message".internalLocalize_
     }
     public class var AddressOnMap:String{
         return "AddressOnMap".internalLocalize_

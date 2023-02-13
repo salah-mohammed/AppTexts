@@ -146,7 +146,7 @@
 "AddressDetails"="تفاصيل العنوان";
 "City"="المدينة";
 "Region"="المنطقة";
-"PhoneNumber"="رقم المحمول";
+"MobileNumber"="رقم المحمول";
 "Title"="العنوان";
 "Description"="الوصف";
 "Details"="التفاصيل";
@@ -161,7 +161,7 @@
 "VerificationCode"="رمز التفعيل";
 "Country"= "الدولة";
 "ChatTextMessagePlaceholder"="...أكتب رسالتك";
-"General.Message"="الرسالة";
+"Message"="الرسالة";
 "AddressOnMap" = "العنوان على الخريطة";
 "CurrentLocation" = "الموقع الحالي";
 "SearchHere"="ابحث هنا";
@@ -196,8 +196,8 @@
 
 //Firebase
 "TooManyFirebaseRequests" = "لديك طلبات كود تفعيل كثيرة";
-"PhoneNumberIsRequired"   = "الرجاء إدخال رقم الجوال";
-"PhoneNumberIsNotValid"   = "الرجاء إدخال رقم الجوال بشكل صحيح";
+"MobileNumberIsRequired"   = "الرجاء إدخال رقم الجوال";
+"MobileNumberIsNotValid"   = "الرجاء إدخال رقم الجوال بشكل صحيح";
 "ConnectionError"         = "تأكد من اتصالك في الإنترنت";
 "VerificationCodeError"   = "يجب التحقق من كود التفعيل";
 

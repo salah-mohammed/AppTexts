@@ -146,7 +146,7 @@
 "AddressDetails"="Address details";
 "City"="City";
 "Region"="Region";
-"PhoneNumber"="PhoneNumber";
+"MobileNumber"="Mobile Number";
 "Title"="Title";
 "Description"="Description";
 "Details"="Details";
@@ -161,7 +161,7 @@
 "VerificationCode"="Verification Code";
 "Country"= "Country";
 "ChatTextMessagePlaceholder"="Write your message ...";
-"General.Message" = "Message";
+"Message" = "Message";
 "AddressOnMap"="Address On Map";
 "CurrentLocation" = "Current location";
 "SearchHere"="Search here";
@@ -198,8 +198,8 @@
 //Firebase
 "VerificationCodeError"                                                           = "You should Correct Verification Code";
 "ConnectionError"                                                                 = "check netWork connection";
-"PhoneNumberIsNotValid"                                                           = "Phone Number is not correct";
-"PhoneNumberIsRequired"                                                           = "Phone Number is required";
+"MobileNumberIsNotValid"                                                           = "Mobile Number is not correct";
+"MobileNumberIsRequired"                                                           = "Mobile Number is required";
 "TooManyFirebaseRequests"                                                         = "You have too many activation code requests";
 
 //cutom
