@@ -35,17 +35,17 @@ if let secondBundle:Bundle = Bundle(path: "\(Bundle.main.bundlePath)/Frameworks/
         }
     }()
 }
- enum RegularExpression:String{
-    case email="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-    case phone = "[+]+[0-9 ]{1,}|[00]+[0-9 ]{1,}|[0-9 ]{9,}"
-    case empty="^[. ]*$"
-     var regex:Regex{
-        return Regex.init(self.rawValue);
-    }
-    func  matches(_ input:String)->Bool{
-    return self.regex.matches(input:input)
-    }
-}
+// enum RegularExpression:String{
+//    case email="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+//    case phone = "[+]+[0-9 ]{1,}|[00]+[0-9 ]{1,}|[0-9 ]{9,}"
+//    case empty="^[. ]*$"
+//     var regex:Regex{
+//        return Regex.init(self.rawValue);
+//    }
+//    func  matches(_ input:String)->Bool{
+//    return self.regex.matches(input:input)
+//    }
+//}
 public extension String{
      func at_localized(_ language:String?=nil,_ tableName:String?=nil) ->String {
         let tempLanguage:String = language  ?? Locale.current.languageCode ?? "Base"
