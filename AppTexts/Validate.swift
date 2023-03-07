@@ -25,13 +25,6 @@ public class Validate: NSObject {
             return String.init(format: self.rawValue.at_localized(language), arguments:[value])
         }
     }
-    public enum Constant:String{
-    case pleaseAcceptTheTerms = "PleaseAcceptTheTerms"
-        
-    func string(_ value:String,_ language:String?=nil)->String{
-        return String.init(format: self.rawValue.at_localized(language), arguments:[value])
-    }
-    }
     public class func mobileDigits(_ value:String,_ language:String?=nil)->String?{
       return  String.init(format: "MobileDigits".at_localized(language), arguments:[value])
     }

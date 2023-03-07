@@ -24,6 +24,7 @@ public class AppTexts: NSObject {
         case downloadAll="DownloadAll"
         case passwordMustHave6="PasswordMustHave6"
         case newPassword="NewPassword"
+        case pleaseAcceptTheTerms = "PleaseAcceptTheTerms"
         case passwordNotMatch="PasswordNotMatch"
         case cantNotOpenLink="CantNotOpenLink"
         case choose="Choose"
@@ -186,7 +187,7 @@ public class AppTexts: NSObject {
         case floorNo="FloorNo"
         case birthDay="BirthDay"
         case oldPassword="OldPassword"
-        func string(_ language:String?=nil)->String{
+        public func string(_ language:String?=nil)->String{
         return  self.rawValue.at_localized(language)
         }
     }
