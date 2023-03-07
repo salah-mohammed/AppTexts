@@ -37,6 +37,9 @@ public class Validate: NSObject {
     public class func required(_ value:String,_ language:String?=nil)->String?{
       return  String.init(format: "Required".at_localized(language), arguments:[value])
     }
+    public class func required(_ constant:AppTexts.Constant,_ language:String?=nil)->String?{
+        return self.required(constant.string(language))
+    }
     public class func fieldNotValid(_ value:String,_ language:String?=nil)->String?{
       return  String.init(format: "NotValid".at_localized(language), arguments:[value])
     }
