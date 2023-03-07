@@ -162,8 +162,11 @@ public class AppTexts: NSObject {
     public class var Edit:String{
         return "Edit".internalLocalize_
     }
-    func KM(value:String)->String{
+    public func KM(value:String)->String{
     return String.init(format: "KM".internalLocalize_, arguments:[value])
+    }
+    public class func DoneSuccessfully(title:String)->String{
+        return String.init(format: "General.Successfully".internalLocalize_, arguments:[title])
     }
     public class var ShowMore:String{
         return "ShowMore".internalLocalize_

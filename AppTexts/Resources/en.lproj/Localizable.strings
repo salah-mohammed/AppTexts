@@ -71,6 +71,7 @@
 "General.QuestionYesNo.Send"="Are you sure you want to send this %@?";
 "General.QuestionYesNo.Change"="Are you sure you want to change this %@?";
 
+"General.Successfully"="%@ done in successfully";
 "General.Deleted.Successfully"="This %@ has been deleted successfully";
 "General.Added.Successfully" = "This %@ has been Added Successfully";
 "General.Edited.Successfully" = "This %@ has been Edited Successfully";
@@ -219,3 +220,36 @@
 //
 //cutom
 "VerificationCodeHasBeenSent"="The verification code has been sent to the number you entered";
+
+
+
+
+
+"BirthDay"="Birth Day";
+"Name"="Name";
+"OldPassword"="Old Password";
+"BirthDay"="تاريخ الميلاد";
+"Name"="الاسم";
+"Info"="معلومات";
+"OldPassword"="كلمة المرور القديمة";
+"MobileDigits"="عذراً، رقم الجوال لابد أن يكون %@ خانة";
+"PleaseAcceptTheTerms" = "يرجى قبول الشروط!";
+"MobileDigits"= "Mobile number must be %@ digits";
+"PleaseAcceptTheTerms" = "Please accept the terms!";
+"AboutUS" = "من نحن";
+"English"="إنجليزي";
+"Arabic"="عربي";
+"Signout"="تسجيل الخروج";
+"AboutUS"="About Us";
+"English"="English";
+"Arabic"="Arabic";
+"Signout"="Sign out";
+"LogInSuccess"                  = "تم تسجيل الدخول بنجاح.";
+"LogOutSuccess"                 = "تم تسجيل الخروج بنحاح";
+"LogInSuccess"="logged in successfully.";
+"LogOutSuccess"="logged out successfully.";
+
+"ResetPasswordSuccess"                                                            = "Password reset successfully done.";
+"ResetCodeToResetPasswordSuccess"                                                 = "Password reset code sent successfully.";
+"ResetPasswordSuccess"                                                            = "تم إستعادة كلمة المرور بنجاح.";
+"ResetCodeToResetPasswordSuccess"                                                 = "تم إرسال رمز إعادة تعيين كلمة المرور بنجاح.";

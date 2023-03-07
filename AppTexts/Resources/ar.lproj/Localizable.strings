@@ -72,6 +72,7 @@
 "General.QuestionYesNo.Send"="هل تريد بالتأكيد إرسال %@؟";
 "General.QuestionYesNo.Change"="هل تريد بالتأكيد تغير %@؟";
 
+"General.Successfully"="تم %@ بنجاح";
 "General.Deleted.Successfully"="تم حذف هذا %@ بنجاح";
 "General.Added.Successfully" = "تم إضافة %@ بنجاح";
 "General.Edited.Successfully" = "تم تعديل %@ بنجاح";
