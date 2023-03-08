@@ -9,14 +9,14 @@ import UIKit
 
 
 public class AppTexts: NSObject {
-    public class func  KM(value:String,_ language:String?=nil)->String{
-    return String.init(format: "KM".at_localized(language,nil), arguments:[value])
+    public class func  KM(value:String)->String{
+    return String.init(format: "KM".internalLocalize_, arguments:[value])
     }
-    public class func Successfully(title:String,_ language:String?=nil)->String{
-        return String.init(format:"Successfully".at_localized(language,nil), arguments:[title])
+    public class func Successfully(title:String)->String{
+        return String.init(format:"Successfully".internalLocalize_, arguments:[title])
     }
-    public class func QuestionYesNo(title:String,_ language:String?=nil)->String{
-        return String.init(format:"QuestionYesNo".at_localized(language,nil), arguments:[title])
+    public class func QuestionYesNo(title:String)->String{
+        return String.init(format:"QuestionYesNo".internalLocalize_, arguments:[title])
     }
     public enum Constant:String{
         // MARK:Constants
@@ -187,8 +187,8 @@ public class AppTexts: NSObject {
         case floorNo="FloorNo"
         case birthDay="BirthDay"
         case oldPassword="OldPassword"
-        public func string(_ language:String?=nil)->String{
-        return  self.rawValue.at_localized(language)
+        var  string:String{
+        return  self.rawValue.internalLocalize_
         }
     }
    
@@ -201,11 +201,11 @@ public class AppTexts: NSObject {
     case sent="Sent_Successfully"
     case change="Change_Successfully"
     case uploaded="Uploaded_Successfully"
-    public func string(_ value:String?=nil,_ language:String?)->String{
+    public func string(_ value:String?=nil)->String{
         if let value:String=value{
-            return String.init(format:self.rawValue.at_localized(language,nil), arguments:[value])
+            return String.init(format:self.rawValue.internalLocalize_, arguments:[value])
         }else{
-            return "\(self.rawValue)_New".at_localized(language,nil)
+            return "\(self.rawValue)_New".internalLocalize_
         }
     }
     }
@@ -217,11 +217,11 @@ public class AppTexts: NSObject {
     case save="QuestionYesNo_Save"
     case send="QuestionYesNo_Send"
     case change="QuestionYesNo_Change"
-        public func string(_ value:String?,_ language:String?)->String{
+        public func string(_ value:String?)->String{
         if let value:String=value{
-            return String.init(format:self.rawValue.at_localized(language,nil), arguments:[value])
+            return String.init(format:self.rawValue.internalLocalize_, arguments:[value])
         }else{
-            return "\(self.rawValue)_New".at_localized(language,nil)
+            return "\(self.rawValue)_New".internalLocalize_
         }
     }
     }
