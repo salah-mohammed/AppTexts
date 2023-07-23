@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DicMonthly</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Monthly</string>
+			<key>one</key>
+			<string>Monthly</string>
+			<key>two</key>
+			<string>Two Months</string>
+			<key>few</key>
+			<string>%d Months</string>
+			<key>many</key>
+			<string>%d Months</string>
+			<key>other</key>
+			<string>%d Months</string>
+		</dict>
+	</dict>
+	<key>DicWeekly</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Weekly</string>
+			<key>one</key>
+			<string>Weekly</string>
+			<key>two</key>
+			<string>Two Weeks</string>
+			<key>few</key>
+			<string>%d Weeks</string>
+			<key>many</key>
+			<string>%d Weeks</string>
+			<key>other</key>
+			<string>%d Weeks</string>
+		</dict>
+	</dict>
+	<key>DicDaily</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Daily</string>
+			<key>one</key>
+			<string>Daily</string>
+			<key>two</key>
+			<string>Tow Days</string>
+			<key>few</key>
+			<string>%d Days</string>
+			<key>many</key>
+			<string>%d Days</string>
+			<key>other</key>
+			<string>%d Days</string>
+		</dict>
+	</dict>
+	<key>DicYearly</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Yearly</string>
+			<key>one</key>
+			<string>Yearly</string>
+			<key>two</key>
+			<string>Two Years</string>
+			<key>few</key>
+			<string>%d Years</string>
+			<key>many</key>
+			<string>%d Years</string>
+			<key>other</key>
+			<string>%d Years</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

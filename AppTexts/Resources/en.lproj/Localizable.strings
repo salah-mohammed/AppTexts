@@ -7,6 +7,11 @@
  */
 // MARK:------------------------------------AppTexts-----------------------------------
 // MARK:Constants
+"Common.Monthly"="Monthly";
+"Common.Daily"="Daily";
+"Common.Weekly"="Weekly";
+"Common.Yearly"="Yearly";
+
 "All" = "All";
 "DownloadAll" = "DownloadAll";
 "CantNotOpenLink" = "Can't open this link";

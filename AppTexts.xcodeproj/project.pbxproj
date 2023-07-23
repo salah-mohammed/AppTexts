@@ -22,6 +22,8 @@
 		8B534F1328FF3DAE00EE0D2D /* AppTextsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B534F1228FF3DAE00EE0D2D /* AppTextsEx.swift */; };
 		8B534F1728FF3DE000EE0D2D /* AppTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B534F1528FF3DE000EE0D2D /* AppTexts.swift */; };
 		8B91145D2902C114002AD1FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B91145A2902C114002AD1FA /* Localizable.strings */; };
+		8BEADE712A6D50A2005D7CF7 /* BaseTextEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEADE702A6D50A2005D7CF7 /* BaseTextEx.swift */; };
+		8BEADE742A6D51C5005D7CF7 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 8BEADE722A6D51C5005D7CF7 /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,9 @@
 		8B534F1528FF3DE000EE0D2D /* AppTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTexts.swift; sourceTree = "<group>"; };
 		8B91145B2902C114002AD1FA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8B91145C2902C114002AD1FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BEADE702A6D50A2005D7CF7 /* BaseTextEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextEx.swift; sourceTree = "<group>"; };
+		8BEADE732A6D51C5005D7CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		8BEADE752A6D51CD005D7CF7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ar; path = ar.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,7 @@
 			children = (
 				8B2E532928FF3C9700FE7911 /* AppTexts.h */,
 				8B534F1228FF3DAE00EE0D2D /* AppTextsEx.swift */,
+				8BEADE702A6D50A2005D7CF7 /* BaseTextEx.swift */,
 				8B534F1528FF3DE000EE0D2D /* AppTexts.swift */,
 				8B2B16F52900179700921BFD /* Regex.swift */,
 				8B2B1715290019E500921BFD /* Validate.swift */,
@@ -144,6 +150,7 @@
 		8B9114592902C114002AD1FA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8BEADE722A6D51C5005D7CF7 /* Localizable.stringsdict */,
 				8B91145A2902C114002AD1FA /* Localizable.strings */,
 			);
 			path = Resources;
@@ -254,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B91145D2902C114002AD1FA /* Localizable.strings in Resources */,
+				8BEADE742A6D51C5005D7CF7 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				8B534F1728FF3DE000EE0D2D /* AppTexts.swift in Sources */,
 				8B2B16F62900179700921BFD /* Regex.swift in Sources */,
 				8B2E532B28FF3C9700FE7911 /* AppTexts.docc in Sources */,
+				8BEADE712A6D50A2005D7CF7 /* BaseTextEx.swift in Sources */,
 				8B2B1716290019E500921BFD /* Validate.swift in Sources */,
 				8B534F1328FF3DAE00EE0D2D /* AppTextsEx.swift in Sources */,
 			);
@@ -316,6 +325,15 @@
 				8B91145C2902C114002AD1FA /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8BEADE722A6D51C5005D7CF7 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEADE732A6D51C5005D7CF7 /* en */,
+				8BEADE752A6D51CD005D7CF7 /* ar */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
