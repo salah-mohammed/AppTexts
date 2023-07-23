@@ -20,13 +20,13 @@ extension SKProductSubscriptionPeriod{
             return "DicYearly"
         }
     }
-    var name:String{
+    var bs_name:String{
         let format = NSLocalizedString(self.bs_unitKey, comment: "")
         return String.localizedStringWithFormat(format, self.numberOfUnits)
     }
 }
 extension SKProduct.PeriodUnit{
-    var bs_name:String{
+    public var bs_name:String{
         switch self{
         case .day:
             return "Common.Daily".internalLocalize_;
