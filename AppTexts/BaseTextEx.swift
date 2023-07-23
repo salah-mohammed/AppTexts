@@ -40,7 +40,7 @@ extension SKProduct.PeriodUnit{
     }
 }
 public extension UIUserInterfaceStyle {
-    var bs_title:String?{
+    public var bs_title:String?{
         switch self {
         case .unspecified:
             return "UIUserInterfaceStyle.unspecified.bs_title".internalLocalize_;
