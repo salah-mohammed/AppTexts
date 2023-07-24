@@ -238,3 +238,7 @@
 "MinimumLimit" = "The Minimum limit %@";
 "MaximumLimit" = "The Maximum limit %@";
 // MARK:------------------------------------AppTexts-----------------------------------
+//dark mode
+"UIUserInterfaceStyle.unspecified.bs_title"="system";
+"UIUserInterfaceStyle.light.bs_title"="light";
+"UIUserInterfaceStyle.dark.bs_title"="dark";
