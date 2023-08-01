@@ -130,6 +130,11 @@
 "Total" = "المجموع";
 "Category" = "التصنيف";
 "ChooseCategory" = "اختر تصنيف";
+///
+"NoSubscription"="لايوجد مشتريات";
+"SubscriptionSucess"="تم الإشتراك بنجاح";
+"PurchaseRestored"="تمت استعادة المشتريات بنجاح";
+//
 // MARK:Alerts
 "AlertMessageLogoutConfirmation" = "هل تريد تسجيل الخروج؟";
 "Unauthorized" = "تم إنتهاء الجلسة, الرجاء تسجيل الدخول مرة اخرى";

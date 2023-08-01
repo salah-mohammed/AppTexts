@@ -131,6 +131,10 @@
 "Total" = "Total";
 "Category" = "Category";
 "ChooseCategory" = "Choose Category";
+"NoSubscription"="No purchases";
+"SubscriptionSucess"="Successfully subscribed";
+"PurchaseRestored"="Purchase has been restored";
+
 // MARK: Alerts
 "AlertMessageLogoutConfirmation" = "Do you want to log out";
 "Unauthorized" = "The session has expired, please log in again";

@@ -187,6 +187,10 @@ public class AppTexts: NSObject {
         case floorNo="FloorNo"
         case birthDay="BirthDay"
         case oldPassword="OldPassword"
+        case noSubscription="NoSubscription"
+        case subscriptionSucess="SubscriptionSucess"
+        case purchaseRestored="PurchaseRestored"
+        
         public var  string:String{
         return  self.rawValue.internalLocalize_
         }
