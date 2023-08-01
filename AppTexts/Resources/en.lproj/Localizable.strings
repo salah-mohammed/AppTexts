@@ -134,6 +134,8 @@
 "NoSubscription"="No purchases";
 "SubscriptionSucess"="Successfully subscribed";
 "PurchaseRestored"="Purchase has been restored";
+"Subscribe"="Subscribe now";
+"Premium"="Premium";
 
 // MARK: Alerts
 "AlertMessageLogoutConfirmation" = "Do you want to log out";

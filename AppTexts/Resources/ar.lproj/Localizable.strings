@@ -134,6 +134,8 @@
 "NoSubscription"="لايوجد مشتريات";
 "SubscriptionSucess"="تم الإشتراك بنجاح";
 "PurchaseRestored"="تمت استعادة المشتريات بنجاح";
+"Subscribe"="اشترك الآن";
+"Premium"="استثنائي";
 //
 // MARK:Alerts
 "AlertMessageLogoutConfirmation" = "هل تريد تسجيل الخروج؟";

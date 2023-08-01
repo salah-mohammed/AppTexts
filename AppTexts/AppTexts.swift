@@ -190,6 +190,8 @@ public class AppTexts: NSObject {
         case noSubscription="NoSubscription"
         case subscriptionSucess="SubscriptionSucess"
         case purchaseRestored="PurchaseRestored"
+        case subscribe="Subscribe"
+        case premium="Premium"
         
         public var  string:String{
         return  self.rawValue.internalLocalize_
