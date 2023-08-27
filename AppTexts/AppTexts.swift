@@ -181,6 +181,7 @@ public class AppTexts: NSObject {
         case addressOnMap="AddressOnMap"
         case currentLocation="CurrentLocation"
         case searchHere="SearchHere"
+        case clickHere="ClickHere"
         case nationality="Nationality"
         case drivingLicense="DrivingLicense"
         case birthCertificate="BirthCertificate"

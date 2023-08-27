@@ -216,6 +216,7 @@
 "AddressOnMap" = "Address On Map";
 "CurrentLocation" = "Current location";
 "SearchHere" = "Search here";
+"ClickHere" = "Click Here";
 "Nationality" = "Nationality";
 "DrivingLicense" = "Driving License";
 "BirthCertificate" = "Birth Certificate";

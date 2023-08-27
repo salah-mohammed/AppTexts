@@ -214,6 +214,7 @@
 "AddressOnMap" = "العنوان على الخريطة";
 "CurrentLocation" = "الموقع الحالي";
 "SearchHere" = "ابحث هنا";
+"ClickHere" = "اضغط هنا";
 "Nationality" = "الجنسية";
 "DrivingLicense" = "رخصة القيادة";
 "BirthCertificate" = "شهادة الميلاد";
