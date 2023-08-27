@@ -6,7 +6,7 @@
 //  Copyright © 2021 Salah. All rights reserved.
 //
 import UIKit
-
+import SwiftUI
 
 public class AppTexts: NSObject {
     public class func  KM(value:String)->String{
@@ -202,6 +202,9 @@ public class AppTexts: NSObject {
         
         public var  string:String{
         return  self.rawValue.internalLocalize_
+        }
+        public var  text:Text{
+            return Text(self.string)
         }
     }
    
