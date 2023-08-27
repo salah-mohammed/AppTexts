@@ -87,6 +87,7 @@ public class AppTexts: NSObject {
         case hTMLDirection="HTMLDirection"
         case contactUs="ContactUs"
         case termsAndConditions="TermsAndConditions"
+        case appPolicies="AppPolicies"
         case notifications="Notifications"
         case rateApp="RateApp"
         case aboutApp="AboutApp"
