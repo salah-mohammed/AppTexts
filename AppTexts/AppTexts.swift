@@ -203,6 +203,7 @@ public class AppTexts: NSObject {
         public var  string:String{
         return  self.rawValue.internalLocalize_
         }
+        @available(iOS 13.0, *)
         public var  text:Text{
             return Text(self.string)
         }
