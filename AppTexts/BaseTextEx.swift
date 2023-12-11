@@ -39,6 +39,7 @@ extension SKProduct.PeriodUnit{
         }
     }
 }
+#if os(iOS)
 public extension UIUserInterfaceStyle {
     public var bs_title:String?{
         switch self {
@@ -54,3 +55,4 @@ public extension UIUserInterfaceStyle {
         return nil
     }
 }
+#endif

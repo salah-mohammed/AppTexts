@@ -5,7 +5,6 @@
 //  Created by Salah on 11/30/21.
 //  Copyright © 2021 Salah. All rights reserved.
 //
-import UIKit
 import SwiftUI
 
 public class AppTexts: NSObject {
