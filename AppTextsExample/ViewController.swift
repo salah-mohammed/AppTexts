@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(AppTexts.ConfirmPassword);
+        print(AppTexts.Constant.aboutApp.string);
         
         // Do any additional setup after loading the view.
     }
