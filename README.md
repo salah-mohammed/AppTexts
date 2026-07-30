@@ -85,11 +85,5 @@ Quesstion Meesages.
 
 AppTexts is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/AppTexts/blob/master/LICENSE) for details.
 
-# Developer's information to communicate
 
-- salahalimohamed1995@gmail.com
-- https://www.facebook.com/salah.shaker.7
-- +201096710204 (whatsApp And PhoneNumber)
-- https://www.linkedin.com/in/salah-mohamed-676b6a17a (Linkedin)
-- https://www.upwork.com/freelancers/~01d5d99dadac372b6d (Upwork)
 
