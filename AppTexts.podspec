@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/salah-mohammed/AppTexts"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  s.author             = { "" => "" }
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
